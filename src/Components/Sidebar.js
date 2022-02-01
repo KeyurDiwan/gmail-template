@@ -5,7 +5,7 @@ import SidebarOption from './SidebarOption';
 import React from 'react';
 import './Sidebar.css';
 import { useDispatch } from 'react-redux';
-import { openSendMessage } from './features/mailSlice';
+import { openSendMessage } from '../features/mailSlice';
 
 function Sidebar() {
 
