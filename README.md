@@ -12,7 +12,11 @@ Create a basics template of gmail using React, JavaScript, CSS  as a part of lea
 * VS Code
 * Github
 
-<!-- # Demo Photos -->
+# Demo Photos
+
+![ukuCapture](https://user-images.githubusercontent.com/89068106/152650767-7d65b926-835b-432d-a534-494819cf9ace.PNG)
+
+![kutktxkkCapture](https://user-images.githubusercontent.com/89068106/152650771-42ef552d-ccb4-4130-9730-34f7baf7ee62.PNG)
 
 
 
