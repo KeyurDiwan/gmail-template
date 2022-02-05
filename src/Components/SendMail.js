@@ -22,7 +22,7 @@ await addDoc(colRef, {
 */
 
 function SendMail() {
-    const { register, handleSubmit, watch, formState  } = useForm();
+    const { register,  formState  } = useForm();
 
     const dispatch = useDispatch();
     
