@@ -4,8 +4,8 @@ import React from 'react';
 import { useDispatch } from 'react-redux';
 import { closwSendMessage } from '../features/mailSlice';
 import { useForm } from 'react-hook-form'
-import { db } from './firebase1.js';
-import { getFirestore, collection } from "firebase/firestore"
+// import { db } from './firebase1.js';
+// import { getFirestore, collection } from "firebase/firestore"
 //  import serverTimestamp from 'firebase/serverTimestamp';
 import './SendMail.css';
 
@@ -26,11 +26,11 @@ function SendMail() {
 
     const dispatch = useDispatch();
     
-  const  onSubmit = async ( formData ) => {
-const res = await  db.collection('cities').add({
-  name: 'Tokyo',
-  country: 'Japan'
-});
+//   const  onSubmit = async ( formData ) => {
+// const res = await  db.collection('cities').add({
+//   name: 'Tokyo',
+//   country: 'Japan'
+// });
 
 console.log('Added document with ID: ', res.id);
 
