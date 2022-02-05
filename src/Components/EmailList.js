@@ -52,8 +52,8 @@ function EmailList() {
         <div className="emailList__list">
             <EmailRow
                 title="Keyur"
-            subject = 'Hey hi '
-                description='kdkjfjnsvnjlfvn'
+            subject = 'This is Message Subject    '
+                description='    This is Message Description'
                 time = '10pm'
             />
         </div>

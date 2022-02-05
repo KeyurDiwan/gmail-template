@@ -32,18 +32,18 @@ function SendMail() {
 //   country: 'Japan'
 // });
 
-console.log('Added document with ID: ', res.id);
+// console.log('Added document with ID: ', res.id);
 
-        // console.log(formData)
-    // db.collection( 'emails' ).add( {
-    //   to: "formData.to",
-    //   // sujext: formData.subject,
-    //   message: formData.mesaage,
-    //   // timestamp: serverTimestamp(),
+//         // console.log(formData)
+//     // db.collection( 'emails' ).add( {
+//     //   to: "formData.to",
+//     //   // sujext: formData.subject,
+//     //   message: formData.mesaage,
+//     //   // timestamp: serverTimestamp(),
 
-    // } );
-    dispatch( closwSendMessage() ); 
-    }
+//     // } );
+//     dispatch( closwSendMessage() ); 
+//     }
     return <div className="sendMail">
         <div className="sendMail__header">
             <h3> New Message </h3>
@@ -54,7 +54,7 @@ console.log('Added document with ID: ', res.id);
            
 
         </div>
-         <form onSubmit={handleSubmit(onSubmit)}>
+         <form>
             <input
                 name='to'
                 placeholder="To"
